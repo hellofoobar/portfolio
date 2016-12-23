@@ -1,0 +1,131 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.main { padding-top:3%; }
+.row { padding: 2% 0; }
+/*.purple { background-color: #7accc8 ; }  #EA80FC #FF4960 #e01563 #f80046 */
+.purple { background-color: #7accc8 ; }
+
+.experience {
+  padding-top: 2em;
+ }
+.experience-left h4, .experience-left-trd h4,.experience-right-snd h4 {
+  font-size: 1.8em;
+  color: #53bed6;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.experience-left h5, .experience-left-trd h5,.experience-right-snd h5 {
+  font-size: 1.5em;
+  color: #34353a;
+  margin: 14px 0;
+}
+.experience-left p, .experience-left-trd p,.experience-right-snd p {
+  font-size: 1.3em;
+  color: #555;
+  margin-top: 8px;
+  line-height: 1.8em;
+}
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+	font-family: 'Abel', sans-serif;
+	font-size: 1.5em;
+	color: #000;
+}
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 3em;
+	margin: 0.67em;
+}
+/*h2.bio { color: #AA00FF; }*/
+h2.bio { color: #3f7f7c; }
+p.bio {
+	color: #3f7f7c;
+	font-size: 1.2em;
+	margin-left: 1.6em;
+}
+
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header.main-nav {
+	padding: 1% 0;
+	display: block;
+}
+.logo {
+	magin: 5% auto;
+	text-align: center;
+}
+.logo a {
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+	color: #fff;
+	text-decoration: none;
+	/*border: 3px solid #fff;
+	text-transform: uppercase;*/
+	padding: 2px 10px 0px 10px;
+	margin: 0;
+}
+.logo a:hover {
+	background-color: #fff;
+	color: #7accc8;
+}
+/* Images & Media
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img { max-width: 100%; }
+img.avatar {
+	border-radius: 400px;
+	border: 5px solid #fff;
+}
+img:hover { opacity: 0.8; }	
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul.social {
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+ul.social li {
+	font-size: 2.6em;
+	display: inline;
+	padding: 0 2%;
+}
+ul.social li a {
+	color: #fff;
+}
+ul.social li.weixin a:hover {color: #7bb32e };
+ul.social li.facebook a:hover {color: rgb(59,89,152);}
+ul.social li.twitter a:hover {color: rgb(0,172,237);}
+ul.social li.instagram a:hover {color: rgb(81,127,237);}
+ul.social li.youtube a:hover {color: rgb(187,0,0);}
+ul.social li.flickr a:hover {color: rgb(255,0,132);}
+ul.social li.linkedin a:hover {color: rgb(0,123,182);}
+
+p.copyright {
+	text-align: center;
+	color: #666;
+	font-size: 1em;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.main{padding-top:15%;}
+	.portfolio img{margin-bottom: 10%;}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em;}
+	p.bio{font-size: 1.25em;color: #3f7f7c;}
+	ul.social li a{font-size: .75em;}
+}
